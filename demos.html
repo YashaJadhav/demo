@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .input-section {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      width: 200px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .input-section button {
+      background-color: #28a745;
+      color: white;
+      margin-left: 5px;
+    }
+
+    .input-section button:hover {
+      background-color: #1e7e34;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 12px 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    li span {
+      font-size: 16px;
+      color: #333;
+    }
+
+    li button {
+      background-color: #ff4d4d;
+      color: white;
+    }
+
+    li button:hover {
+      background-color: #cc0000;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>To Do List</h2>
+
+  <div class="input-section">
+    <input type="text" placeholder="Add Work">
+    <button>Add</button>
+  </div>
+
+  <ul>
+    <li>
+      <span>Task 1</span>
+      <button>🗑</button>
+    </li>
+    <li>
+      <span>Task 2</span>
+      <button>🗑</button>
+    </li>
+    <li>
+      <span>Task 3</span>
+      <button>🗑</button>
+    </li>
+  </ul>
+
+</body>
+</html>
